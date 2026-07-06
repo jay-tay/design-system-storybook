@@ -42,7 +42,7 @@
         "com.figma.hiddenFromPublishing": false
       },
       "$type": "number",
-      "$value": 12
+      "$value": 64
     },
     "XL": {
       "$extensions": {
