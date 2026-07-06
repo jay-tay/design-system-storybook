@@ -1,0 +1,306 @@
+{
+  "Family": {
+    "Funnel Display": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "text",
+      "$value": "Funnel Display",
+      "$description": "Font Family variable for Inter"
+    },
+    "DM Sans": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "text",
+      "$value": "DM Sans",
+      "$description": "Font Family variable for Inter"
+    }
+  },
+  "Weight": {
+    "Semi Bold": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "text",
+      "$value": "Semi Bold"
+    },
+    "Medium": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "text",
+      "$value": "Medium"
+    },
+    "Regular": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "text",
+      "$value": "Regular"
+    }
+  },
+  "Size": {
+    "8XL": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.72}",
+      "$description": "Font Size variable for 72"
+    },
+    "7XL": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.64}",
+      "$description": "Font Size variable for 64"
+    },
+    "6XL": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.56}",
+      "$description": "Font Size variable for 56"
+    },
+    "5XL": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.48}",
+      "$description": "Font Size variable for 48"
+    },
+    "4XL": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.40}",
+      "$description": "Font Size variable for 40"
+    },
+    "3XL": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.32}",
+      "$description": "Font Size variable for 32"
+    },
+    "2XL": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.24}",
+      "$description": "Font Size variable for 24"
+    },
+    "XL": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.20}",
+      "$description": "Font Size variable for 20"
+    },
+    "L": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.16}",
+      "$description": "Font Size variable for 16"
+    },
+    "M": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.14}",
+      "$description": "Font Size variable for 14"
+    },
+    "S": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.12}",
+      "$description": "Font Size variable for 12"
+    }
+  },
+  "Letter Spacing": {
+    "2XS": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": -2,
+      "$description": "Letter Spacing variable for -2"
+    },
+    "XS": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": -1,
+      "$description": "Letter Spacing variable for -1"
+    },
+    "None": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": 0,
+      "$description": "Letter Spacing variable for 0"
+    },
+    "S": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": -0.5,
+      "$description": "Letter Spacing variable for -1"
+    }
+  },
+  "Line Height": {
+    "8XL": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.80}",
+      "$description": "Line Height variable for 80"
+    },
+    "7XL": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.72}",
+      "$description": "Line Height variable for 72"
+    },
+    "6XL": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.64}",
+      "$description": "Line Height variable for 64"
+    },
+    "5XL": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.56}",
+      "$description": "Line Height variable for 56"
+    },
+    "4XL": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.48}",
+      "$description": "Line Height variable for 48"
+    },
+    "3XL": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.40}",
+      "$description": "Line Height variable for 40"
+    },
+    "2XL": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.32}",
+      "$description": "Line Height variable for 32"
+    },
+    "XL": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.28}",
+      "$description": "Line Height variable for 28"
+    },
+    "L": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.24}",
+      "$description": "Line Height variable for 24"
+    },
+    "M": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.20}",
+      "$description": "Line Height variable for 20"
+    },
+    "S": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": "{Unit.16}",
+      "$description": "Line Height variable for 16"
+    }
+  },
+  "Paragraph Spacing": {
+    "2XS": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": 4,
+      "$description": "Letter Spacing variable for -2"
+    },
+    "XS": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": 8,
+      "$description": "Letter Spacing variable for -1"
+    },
+    "S": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": 16,
+      "$description": "Letter Spacing variable for -1"
+    },
+    "None": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": 0,
+      "$description": "Letter Spacing variable for 0"
+    },
+    "M": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": 20,
+      "$description": "Letter Spacing variable for -1"
+    },
+    "L": {
+      "$extensions": {
+        "com.figma.hiddenFromPublishing": true
+      },
+      "$type": "number",
+      "$value": 24
+    }
+  }
+}

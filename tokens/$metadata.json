@@ -1,0 +1,14 @@
+{
+  "tokenSetOrder": [
+    "Colour / Primitive/Mode 1",
+    "Colour / Semantic/Light",
+    "Colour / Semantic/Dark",
+    "Type / Primitive/Mode 1",
+    "Type / Semantic/Desktop",
+    "Type / Semantic/Mobile",
+    "Spacing/Mode 1",
+    "Units/Mode 1",
+    "Layout/Mode 1",
+    "Border/Mode 1"
+  ]
+}
