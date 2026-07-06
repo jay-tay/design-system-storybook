@@ -1,26 +1,15 @@
 .button {
   display: inline-flex;
-  padding: var(--button-padding-y) var(--button-padding-x);
   justify-content: center;
   align-items: center;
 
   border: 1px solid transparent;
-  border-radius: var(--button-radius);
 
   font-family: var(--button-font-family);
-  font-size: var(--button-font-size);
   font-weight: var(--button-font-weight);
-  line-height: var(--button-line-height);
-  letter-spacing: var(--button-letter-spacing);
 
   cursor: pointer;
   white-space: nowrap;
-
-  transition:
-    background-color 120ms ease,
-    border-color 120ms ease,
-    color 120ms ease,
-    box-shadow 120ms ease;
 }
 
 .button:focus-visible {
@@ -30,6 +19,24 @@
 
 .button:disabled {
   cursor: not-allowed;
+}
+
+/* Sizes */
+
+.button--m {
+  padding: var(--button-m-padding-y) var(--button-m-padding-x);
+  border-radius: var(--button-m-radius);
+  font-size: var(--button-m-font-size);
+  line-height: var(--button-m-line-height);
+  letter-spacing: var(--button-m-letter-spacing);
+}
+
+.button--l {
+  padding: var(--button-l-padding-y) var(--button-l-padding-x);
+  border-radius: var(--button-l-radius);
+  font-size: var(--button-l-font-size);
+  line-height: var(--button-l-line-height);
+  letter-spacing: var(--button-l-letter-spacing);
 }
 
 /* Primary */

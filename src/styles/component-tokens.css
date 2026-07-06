@@ -2,18 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Funnel+Display:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  
-  /* Button / Layout */
-  --button-padding-y: var(--space-s);
-  --button-padding-x: var(--space-l);
-  --button-radius: var(--radius-m);
+  /* Button / Size M */
+  --button-m-padding-y: var(--space-xs);
+  --button-m-padding-x: var(--space-m);
+  --button-m-radius: var(--radius-s);
+  --button-m-font-size: var(--body-m-semibold-size);
+  --button-m-line-height: var(--body-m-semibold-line-height);
+  --button-m-letter-spacing: var(--body-m-semibold-letter-spacing);
 
-   /* Button / Typography */
+  /* Button / Size L */
+  --button-l-padding-y: var(--space-s);
+  --button-l-padding-x: var(--space-l);
+  --button-l-radius: var(--radius-m);
+  --button-l-font-size: var(--body-l-semibold-size);
+  --button-l-line-height: var(--body-l-semibold-line-height);
+  --button-l-letter-spacing: var(--body-l-semibold-letter-spacing);
+
+  /* Button / Typography */
   --button-font-family: var(--body-family);
-  --button-font-size: var(--body-l-semibold-size);
   --button-font-weight: 600;
-  --button-line-height: var(--body-l-semibold-line-height);
-  --button-letter-spacing: var(--body-l-semibold-letter-spacing);
 
   /* Button / Primary */
   --button-primary-bg: var(--background-brand);
