@@ -17,7 +17,7 @@ const sources = [
 
   'tokens/Units/Mode 1.json',
 ];
-
+ 
 const outputFile = path.join(root, 'src/styles/tokens.css');
 
 const tokens = new Map();
