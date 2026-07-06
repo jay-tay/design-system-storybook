@@ -15,13 +15,31 @@ const meta = {
     },
     size: {
       control: 'select',
-      options: ['m', 'l'],
+      options: ['M', 'L'],
     },
     children: {
       control: 'text',
     },
     disabled: {
       control: 'boolean',
+    },
+    showLeadingIcon: {
+      control: 'boolean',
+      name: 'Show leading icon',
+    },
+    leadingIcon: {
+      control: 'select',
+      options: ['plus', 'arrowRight', 'check', 'chevronRight'],
+      name: 'Leading icon',
+    },
+    showTrailingIcon: {
+      control: 'boolean',
+      name: 'Show trailing icon',
+    },
+    trailingIcon: {
+      control: 'select',
+      options: ['plus', 'arrowRight', 'check', 'chevronRight'],
+      name: 'Trailing icon',
     },
   },
 } satisfies Meta<typeof Button>;
@@ -32,45 +50,91 @@ type Story = StoryObj<typeof meta>;
 
 export const PrimaryLarge: Story = {
   args: {
-    children: 'Button',
+    children: 'Label',
     variant: 'primary',
-    size: 'l',
+    size: 'L',
     disabled: false,
+    showLeadingIcon: false,
+    leadingIcon: 'plus',
+    showTrailingIcon: false,
+    trailingIcon: 'plus',
+  },
+};
+
+export const PrimaryLargeWithIcons: Story = {
+  args: {
+    children: 'Label',
+    variant: 'primary',
+    size: 'L',
+    disabled: false,
+    showLeadingIcon: true,
+    leadingIcon: 'plus',
+    showTrailingIcon: true,
+    trailingIcon: 'plus',
   },
 };
 
 export const PrimaryMedium: Story = {
   args: {
-    children: 'Button',
+    children: 'Label',
     variant: 'primary',
-    size: 'm',
+    size: 'M',
     disabled: false,
+    showLeadingIcon: false,
+    leadingIcon: 'plus',
+    showTrailingIcon: false,
+    trailingIcon: 'plus',
+  },
+};
+
+export const PrimaryMediumWithIcons: Story = {
+  args: {
+    children: 'Label',
+    variant: 'primary',
+    size: 'M',
+    disabled: false,
+    showLeadingIcon: true,
+    leadingIcon: 'plus',
+    showTrailingIcon: true,
+    trailingIcon: 'plus',
   },
 };
 
 export const SecondaryLarge: Story = {
   args: {
-    children: 'Button',
+    children: 'Label',
     variant: 'secondary',
-    size: 'l',
+    size: 'L',
     disabled: false,
+    showLeadingIcon: false,
+    leadingIcon: 'plus',
+    showTrailingIcon: false,
+    trailingIcon: 'plus',
   },
 };
 
-export const SecondaryMedium: Story = {
+export const SecondaryLargeWithIcons: Story = {
   args: {
-    children: 'Button',
+    children: 'Label',
     variant: 'secondary',
-    size: 'm',
+    size: 'L',
     disabled: false,
+    showLeadingIcon: true,
+    leadingIcon: 'plus',
+    showTrailingIcon: true,
+    trailingIcon: 'plus',
   },
 };
 
-export const Disabled: Story = {
+export const DisabledWithIcons: Story = {
   args: {
-    children: 'Button',
+    children: 'Label',
     variant: 'primary',
-    size: 'l',
+    size: 'L',
     disabled: true,
+    showLeadingIcon: true,
+    leadingIcon: 'plus',
+    showTrailingIcon: true,
+    trailingIcon: 'plus',
   },
 };

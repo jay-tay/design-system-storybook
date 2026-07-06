@@ -9,6 +9,9 @@
   --button-m-font-size: var(--body-m-semibold-size);
   --button-m-line-height: var(--body-m-semibold-line-height);
   --button-m-letter-spacing: var(--body-m-semibold-letter-spacing);
+  --button-m-icon-size: var(--unit-16);
+  --button-m-icon-stroke-width: 1.25px;
+  --button-m-label-padding-x: var(--space-s);
 
   /* Button / Size L */
   --button-l-padding-y: var(--space-s);
@@ -17,6 +20,13 @@
   --button-l-font-size: var(--body-l-semibold-size);
   --button-l-line-height: var(--body-l-semibold-line-height);
   --button-l-letter-spacing: var(--body-l-semibold-letter-spacing);
+  --button-l-icon-size: var(--unit-20);
+  --button-l-icon-stroke-width: var(--width-s);
+  --button-l-label-padding-x: var(--space-s);
+
+  /* Button / Inner layers */
+  --button-content-padding-y: var(--space-3-xs);
+  --button-label-gap: var(--space-m);
 
   /* Button / Typography */
   --button-font-family: var(--body-family);
@@ -24,22 +34,22 @@
 
   /* Button / Primary */
   --button-primary-bg: var(--background-brand);
+  --button-primary-text: var(--content-primary-inverse);
   --button-primary-bg-hover: var(--background-brand-hover);
   --button-primary-bg-pressed: var(--background-brand-pressed);
-  --button-primary-text: var(--content-primary-inverse);
 
   /* Button / Secondary */
   --button-secondary-bg: var(--background-primary);
+  --button-secondary-text: var(--content-secondary);
+  --button-secondary-border: var(--border-secondary);
   --button-secondary-bg-hover: var(--background-hover);
   --button-secondary-bg-pressed: var(--background-pressed);
-  --button-secondary-text: var(--content-primary);
-  --button-secondary-border: var(--border-secondary);
-
-  /* Button / Focus */
-  --button-focus-ring: var(--border-focus-primary);
 
   /* Button / Disabled */
   --button-disabled-bg: var(--background-disabled);
   --button-disabled-text: var(--content-disabled);
   --button-disabled-border: var(--border-disabled);
+
+  /* Button / Focus */
+  --button-focus-ring: var(--border-focus-primary);
 }
