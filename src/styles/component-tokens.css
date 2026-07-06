@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Funnel+Display:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  
+  /* Button / Layout */
+  --button-padding-y: var(--space-s);
+  --button-padding-x: var(--space-l);
+  --button-radius: var(--radius-m);
+
+   /* Button / Typography */
+  --button-font-family: var(--body-family);
+  --button-font-size: var(--body-l-semibold-size);
+  --button-font-weight: 600;
+  --button-line-height: var(--body-l-semibold-line-height);
+  --button-letter-spacing: var(--body-l-semibold-letter-spacing);
+
+  /* Button / Primary */
+  --button-primary-bg: var(--background-brand);
+  --button-primary-bg-hover: var(--background-brand-hover);
+  --button-primary-bg-pressed: var(--background-brand-pressed);
+  --button-primary-text: var(--content-primary-inverse);
+
+  /* Button / Secondary */
+  --button-secondary-bg: var(--background-primary);
+  --button-secondary-bg-hover: var(--background-hover);
+  --button-secondary-bg-pressed: var(--background-pressed);
+  --button-secondary-text: var(--content-primary);
+  --button-secondary-border: var(--border-secondary);
+
+  /* Button / Focus */
+  --button-focus-ring: var(--border-focus-primary);
+
+  /* Button / Disabled */
+  --button-disabled-bg: var(--background-disabled);
+  --button-disabled-text: var(--content-disabled);
+  --button-disabled-border: var(--border-disabled);
+}
