@@ -25,7 +25,7 @@ const meta = {
         type: { summary: "'primary' | 'secondary'" },
         defaultValue: { summary: 'primary' },
       },
-    },
+    }, 
     size: {
       description:
         'Controls the button size. This affects padding, border radius, text style, icon size and icon stroke weight.',
