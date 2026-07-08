@@ -9,6 +9,9 @@
     "Spacing/Mode 1",
     "Units/Mode 1",
     "Layout/Mode 1",
-    "Border/Mode 1"
+    "Layout/Desktop",
+    "Border/Mode 1",
+    "Responsive/Desktop",
+    "Responsive/Mobile"
   ]
 }
